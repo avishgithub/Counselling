@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counselling</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0px;
+        }
+
+        .container {
+            display: flex;
+            background-color: #181818;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px 50px 10px;
+            
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .left {
+            width: 50%;
+            position: relative;
+        }
+
+        .left img {
+            width: 70%;
+            height: 100%;
+            left:50%;
+            object-fit: cover;
+            border-radius: 10px 0 0 10px;
+        }
+
+        .left .text {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+        }
+
+        .right {
+            width: 50%;
+            padding: 30px;
+        }
+
+        .right h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .right p {
+            font-size: 16px;
+            margin-bottom: 20px;
+            color: white;;
+        }
+
+        .right input {
+            width: 50%;
+            padding: 17px;
+            margin-bottom: 10px;
+            border: none;
+            background-color: #282828;
+            color: #fff;
+            border-radius: 5px;
+            border: 1px solid #5c49e7;
+        }
+
+        .right button {
+            background-color: #fbfafc;
+            color: #fffefe;
+            padding: 19px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 14px;
+            a:hover {
+        text-decoration: underline;
+        }
+        }
+
+        .right button:hover {
+            background-color: #7d6df7;
+        }
+
+        .right p a {
+            color: #5c49e7;
+            font-weight: 600;
+        }
+
+        a:hover {
+        text-decoration: underline;
+        }
+
+        .right button a {
+            padding:10px;
+                }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="bias.jpg"  alt= "BIAS">
+            <div class="text">
+                <h2>Welcome</h2>
+            </div>
+        </div>
+        <div class="right">
+            <h1>Create an Account</h1>
+            <p>Already have an account? <a
+                 href="signIn.html">Login</a>
+            </p>
+            <input type="text" placeholder="Full Name ">
+            <input type="email" id="email" name="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <label></p><button><a
+                href="verifyemail.html">Create Account</a>
+            </button></p></button>
+        </div>
+    </div>
+</body>
+</html>

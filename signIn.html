@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: #121212;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #181818;
+  padding: 150px 50px 50px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #5c49e7;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  background-color: #282828;
+  color: white;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border-color: #777;
+}
+
+button {
+  background-color: #5c49e7;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #7d6df7;
+}
+
+a {
+  color: #7665f8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.left img {
+    position: absolute;
+    top: 21%;
+    left: 45%;
+    width: 10%;
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+        <img src="logo.png">
+        <div class="text">
+            <h2></h2>
+        </div>
+    <h2>Welcome Back</h2>
+    <p>Don’t have an account yet? <a
+        href="signUP.html">Sign up</a>
+   </p>
+    <form>
+      <div>
+        <input type="email" id="email" name="email" placeholder="Email">
+      </div>
+      <div>
+        <input type="password" id="password" name="password" placeholder="Password">
+      </div>
+      <button>Login</button>
+    </form>
+  </div>
+</body>
+</html>
